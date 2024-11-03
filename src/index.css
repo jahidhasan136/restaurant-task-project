@@ -204,3 +204,8 @@
 .btn {
   @apply px-6 py-4 font-bold bg-[#FEBF00] text-[#0A1425] uppercase
 }
+
+/* social buttons */
+.btn_social {
+  @apply p-4 rounded-full border border-[#E5E7EB] cursor-pointer
+}

@@ -1,5 +1,6 @@
-import About from "./About/About";
-import Booking from "./Booking/Booking";
+import About from "./Home/About/About";
+import Booking from "./Home/Booking/Booking";
+import Footer from "./Home/Footer/Footer";
 import Hero from "./Home/Hero/Hero";
 import Navbar from "./Home/Navbar/Navbar";
 
@@ -14,6 +15,7 @@ const Home = () => {
             </div>
             <About />
             <Booking />
+            <Footer />
         </div>
     );
 };
