@@ -209,3 +209,10 @@
 .btn_social {
   @apply p-4 rounded-full border border-[#E5E7EB] cursor-pointer
 }
+
+
+
+/* bar */
+.offcanvas.active {
+  left: 0;
+}
