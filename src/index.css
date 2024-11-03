@@ -210,6 +210,10 @@
   @apply p-4 rounded-full border border-[#E5E7EB] cursor-pointer
 }
 
+/* react tabs selection */
+.react-tabs__tab--selected {
+  @apply bg-[#B52B1D] text-white
+}
 
 
 /* bar */
