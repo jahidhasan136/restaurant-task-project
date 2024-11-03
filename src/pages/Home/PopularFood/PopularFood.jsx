@@ -48,15 +48,11 @@ const PopularFood = () => {
                             spaceBetween: 50,
                         },
                     }}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    // navigation={true}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
                     {/* mobile device button */}
-                    <div className="md:hidden flex justify-center">
+                    <div className="md:hidden mt-6 flex justify-center">
                         <PopularFoodButton />
                     </div>
                     {/* laptop device button */}
@@ -132,36 +128,6 @@ const PopularFood = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-
-
-
-
-                {/* <div className="lg:mt-[60px] sm:mt-[30px] grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                    <div className="text-center bg-white p-8">
-                        <img className="mx-auto" src={burgerImg} alt="" />
-                        <div className="w-[57px] h-1 bg-[#BD1F17] mx-auto my-6"></div>
-                        <h3 className="bebas-neue-bolds font-bold text-2xl uppercase leading-[36px]">Vegetables Burger</h3>
-                        <p className="leading-[32px]">Barbecue italian cuisine pizza</p>
-                    </div>
-                    <div className="text-center bg-white p-8">
-                        <img className="mx-auto" src={pizzaImg} alt="" />
-                        <div className="w-[57px] h-1 bg-[#BD1F17] mx-auto my-6"></div>
-                        <h3 className="bebas-neue-bolds font-bold text-2xl uppercase leading-[36px]">Spacial Pizza</h3>
-                        <p className="leading-[32px]">Barbecue italian cuisine p izza</p>
-                    </div>
-                    <div className="text-center bg-white p-8">
-                        <img className="mx-auto" src={frenchFriesImg} alt="" />
-                        <div className="w-[57px] h-1 bg-[#BD1F17] mx-auto my-6"></div>
-                        <h3 className="bebas-neue-bolds font-bold text-2xl uppercase leading-[36px]">Spacial French Fires</h3>
-                        <p className="leading-[32px]">Barbecue italian cuisine pizza</p>
-                    </div>
-                    <div className="text-center bg-white p-8">
-                        <img className="mx-auto" src={chickenImg} alt="" />
-                        <div className="w-[57px] h-1 bg-[#BD1F17] mx-auto my-6"></div>
-                        <h3 className="bebas-neue-bolds font-bold text-2xl uppercase leading-[36px]">Cuisine Chicken</h3>
-                        <p className="leading-[32px]">Barbecue italian cuisine pizza</p>
-                    </div>
-                </div> */}
             </div>
         </div>
     );
