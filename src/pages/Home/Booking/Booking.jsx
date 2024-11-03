@@ -24,7 +24,7 @@ const Booking = () => {
                         <input className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] w-[302px] h-[46px]'
                             placeholder='Total People' type="number" />
                     </div>
-                    <textarea className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] lg:w-[620px] md:w-[302px] h-[140px] lg:mb-8 md:mb-6' placeholder='Message' name="" id=""></textarea>
+                    <textarea className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] lg:w-[620px] sm:w-[302px] h-[140px] lg:mb-8 md:mb-6' placeholder='Message' name="" id=""></textarea>
                     <div className='lg:pb-[86px] md:pb-[30px]'>
                         <button className='btn text-lg'>Book Now</button>
                     </div>
