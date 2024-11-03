@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import PopularFoodButton from "./PopularFoodButton";
 
 
@@ -30,6 +30,10 @@ const PopularFood = () => {
                     slidesPerView={4}
                     spaceBetween={30}
                     loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
                     breakpoints={{
                         375: {
                             slidesPerView: 1,
@@ -48,7 +52,7 @@ const PopularFood = () => {
                             spaceBetween: 50,
                         },
                     }}
-                    modules={[Pagination, Navigation]}
+                    modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
                     {/* mobile device button */}

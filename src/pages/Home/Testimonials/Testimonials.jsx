@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import TestimonialsButton from "./TestimonialsButton";
 
 const Testimonials = () => {
@@ -27,7 +27,11 @@ const Testimonials = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     loop={true}
-                    modules={[Pagination, Navigation]}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
                     {/* mobile device button */}
