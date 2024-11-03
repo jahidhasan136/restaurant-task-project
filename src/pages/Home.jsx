@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Booking from "./Booking/Booking";
 import Hero from "./Home/Hero/Hero";
 import Navbar from "./Home/Navbar/Navbar";
 
@@ -12,6 +13,7 @@ const Home = () => {
                 </div>
             </div>
             <About />
+            <Booking />
         </div>
     );
 };
