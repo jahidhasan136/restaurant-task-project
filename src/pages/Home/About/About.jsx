@@ -8,7 +8,7 @@ import bgImg from '/public/assets/about/bg_img.svg'
 const About = () => {
     return (
         <div className='relative'>
-            <img className='absolute right-0 bottom-0' src={bgImg} alt="" />
+            <img className='absolute right-0 bottom-0 -z-10' src={bgImg} alt="" />
             <div className='container mt-[120px]'>
                 <div className='grid  lg:grid-cols-2 gap-20 items-center'>
                     <div>

@@ -13,7 +13,7 @@ const Footer = () => {
             <img className="absolute -z-10 h-[100%] w-[100%] object-cover" src={bgImg} alt="" />
             <div className='container pt-[120px]'>
                 <h2 className='xl:text-[62px] md:text-[40px] xl:leading-[64px] md:leading-[48px] bebas-neue-bold'>We ready to have you the best dining expriences</h2>
-                <div className='mt-12 grid grid-cols-4'>
+                <div className='mt-12 grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'>
                     <div>
                         <img className='mb-6 mx-auto' src={timeIcon} alt="" />
                         <h3 className='mb-3 text-2xl bebas-neue-bold uppercase'>Openning Hours</h3>
