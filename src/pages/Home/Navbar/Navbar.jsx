@@ -10,7 +10,7 @@ const Navbar = () => {
                     <img src={logo} alt="" />
                     <p className="text-[28.44px] poppins-semibold">Restau<span className="font-normal">rant</span></p>
                 </div>
-                <div className="flex md:hidden gap-10">
+                <div className="lg:flex md:hidden sm:hidden gap-10">
                     <Link to='/'>Home</Link>
                     <Link to='/'>About</Link>
                     <Link to='/'>Portfolio</Link>
@@ -19,10 +19,10 @@ const Navbar = () => {
                     <Link to='/'>Contact</Link>
                 </div>
             </div>
-            <div className="lg:block md:hidden">
+            <div className="lg:block md:hidden sm:hidden">
                 <button className="btn">Book A Table</button>
             </div>
-            <div className="lg:hidden md:block">
+            <div className="lg:hidden md:block sm:block">
                 <FaBars className="text-2xl" />
             </div>
         </div>

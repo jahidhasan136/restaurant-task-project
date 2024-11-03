@@ -9,19 +9,19 @@ const About = () => {
     return (
         <div className='relative'>
             <img className='absolute right-0 bottom-0 -z-10' src={bgImg} alt="" />
-            <div className='container mt-[120px]'>
-                <div className='grid  lg:grid-cols-2 gap-20 items-center'>
+            <div className='container mt-[120px] sm:mt-[32px]'>
+                <div className='grid lg:grid-cols-2 gap-20 sm:gap-8 items-center'>
                     <div>
                         <img className='bg-cover w-full h-full' src={aboutImg} alt="" />
                     </div>
-                    <div className="grid gap-8">
+                    <div className="grid lg:gap-8 sm:gap-6">
                         <div className="flex gap-4">
                             <button className="px-4 py-[6px] bg-[#B52B1D] text-white text-sm">About</button>
                             <button>Experience</button>
                             <button>Contact</button>
                         </div>
-                        <div className='grid gap-4'>
-                            <h2 className="uppercase xl:text-[62px] md:text-[40pxs] xl:leading-[62px] font-bold">
+                        <div className='grid lg:gap-4 sm:gap-3'>
+                            <h2 className="uppercase xl:text-[62px] sm:text-[40pxs] xl:leading-[62px] font-bold">
                                 Exceptional Culinary Experience And Delicious Food
                             </h2>
                             <p className='text-[#333333]'>
@@ -37,7 +37,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-3 md:grid-cols-2 justify-between mt-[74px]'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-between lg:mt-[74px] sm:mt-[50px] sm:gap-8'>
                     <div className='flex gap-4 items-center'>
                         <img className='px-[27.5px] py-[28.33px] rounded-full shadow' src={fastDeliveryImg} alt="" />
                         <div className='grid gap-[2px]'>
