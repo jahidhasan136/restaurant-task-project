@@ -215,6 +215,27 @@
   @apply bg-[#B52B1D] text-white
 }
 
+/* swiper */
+.swiper {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .swiper {
+    display: block !important;
+    flex-direction: column-reverse !important;
+  }
+}
 
 /* bar */
 .offcanvas.active {
