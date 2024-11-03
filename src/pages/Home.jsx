@@ -3,6 +3,7 @@ import Booking from "./Home/Booking/Booking";
 import Footer from "./Home/Footer/Footer";
 import Hero from "./Home/Hero/Hero";
 import Navbar from "./Home/Navbar/Navbar";
+import PopularFood from "./Home/PopularFood/PopularFood";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 </div>
             </div>
             <About />
+            <PopularFood />
             <Booking />
             <Footer />
         </div>
