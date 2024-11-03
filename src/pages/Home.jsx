@@ -4,6 +4,7 @@ import Footer from "./Home/Footer/Footer";
 import Hero from "./Home/Hero/Hero";
 import Navbar from "./Home/Navbar/Navbar";
 import PopularFood from "./Home/PopularFood/PopularFood";
+import Testimonials from "./Home/Testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <About />
             <PopularFood />
             <Booking />
+            <Testimonials />
             <Footer />
         </div>
     );

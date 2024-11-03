@@ -3,10 +3,12 @@ import burgerImg from '/public/assets/popular-food/burger.svg'
 import pizzaImg from '/public/assets/popular-food/pizza.svg'
 import frenchFriesImg from '/public/assets/popular-food/french-fries.svg'
 import chickenImg from '/public/assets/popular-food/chicken.svg'
+import bgImg from '/public/assets/popular-food/bg-img.svg'
 
 const PopularFood = () => {
     return (
-        <div className="bg-[#FBF7F2] lg:mt-[120px] sm:mt-8">
+        <div className="relative bg-[#FBF7F2] lg:mt-[120px] sm:mt-8 z-10">
+            <img className="absolute bottom-0 -z-10 md:block sm:hidden" src={bgImg} alt="" />
             <div className="container lg:py-[120px] sm:py-8">
                 <div className="grid lg:gap-4 sm:gap-2">
                     <Title name="Cispy, Every Bite Taste" />

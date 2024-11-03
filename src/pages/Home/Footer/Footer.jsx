@@ -9,7 +9,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className="mt-[120px] relative text-white bg-black/80 text-center">
+        <div className="lg:mt-[120px] sm:mt-[30px] relative text-white bg-black/80 text-center">
             <img className="absolute -z-10 h-[100%] w-[100%] object-cover" src={bgImg} alt="" />
             <div className='container pt-[120px]'>
                 <h2 className='lg:text-[62px] sm:text-[40px] lg:leading-[64px] sm:leading-[48px] bebas-neue-bold'>We ready to have you the best dining expriences</h2>

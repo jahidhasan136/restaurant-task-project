@@ -3,7 +3,7 @@ import bgImg from '/public/assets/booking/bg-booking.jpg'
 
 const Booking = () => {
     return (
-        <div className='relative mt-[120px]'>
+        <div className='relative lg:mt-[120px] sm:mt-[30px]'>
             <img className='absolute -z-10 bg-cover w-[100%] h-[100%]' src={bgImg} alt="" />
             <div className='text-white container pt-[120px]'>
                 <Title name='Book Now' />
@@ -23,7 +23,7 @@ const Booking = () => {
                             placeholder='Total People' type="number" />
                     </div>
                     <textarea className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] lg:w-[620px] sm:w-[302px] h-[140px] lg:mb-8 md:mb-6' placeholder='Message' name="" id=""></textarea>
-                    <div className='lg:pb-[86px] md:pb-[30px]'>
+                    <div className='lg:pb-[86px] sm:pb-[30px]'>
                         <button className='btn text-lg'>Book Now</button>
                     </div>
                 </form>
