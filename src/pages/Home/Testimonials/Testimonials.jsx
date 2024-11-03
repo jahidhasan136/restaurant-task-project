@@ -17,7 +17,7 @@ const Testimonials = () => {
     return (
         <div className="lg:mt-[120px] sm:mt-[30px]">
             <div className="container">
-                <div className="grid lg:gap-4 sm:gap-2">
+                <div className="md:hidden grid lg:gap-4 sm:gap-2">
                     <Title name="Cispy, Every Bite Taste" />
                     <h2 className="lg:text-[62px] sm:text-[40px] lg:leading-[62px] sm:leading-[48px] font-bold">What Some Of My Customers Say</h2>
                 </div>
