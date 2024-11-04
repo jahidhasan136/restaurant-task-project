@@ -1,4 +1,4 @@
-# Live Preview: [restaurant-website](https://restaurants-tasks.netlify.app/)
+# Live Preview: [restaurant-website](https://restaurants-tasks.vercel.app/)
 
 <h2>Project Overview</h2>
 This project is built with React.js and is fully responsive, offering a seamless experience across mobile, laptop, and desktop devices. The website features a range of functional components and custom styling to enhance user interaction. Below are some key details:
