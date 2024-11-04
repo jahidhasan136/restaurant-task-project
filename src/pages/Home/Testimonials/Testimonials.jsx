@@ -1,7 +1,7 @@
 import Title from "../../../components/Titile";
-import personImg from '../../../../public/assets/testimonials/person.svg'
-import quoteImg from '../../../../public/assets/testimonials/quote.svg'
-import bgImg from '../../../../public/assets/testimonials/bg-img.svg'
+import personImg from '../../../assets/testimonials/person.svg'
+import quoteImg from '../../../assets/testimonials/quote.svg'
+import bgImg from '../../../assets/testimonials/bg-img.svg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

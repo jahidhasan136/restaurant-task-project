@@ -1,5 +1,5 @@
 import Title from '../../../components/Titile';
-import bgImg from '../../../../public/assets/booking/bg-booking.jpg'
+import bgImg from '../../../assets/booking/bg-booking.jpg'
 
 const Booking = () => {
     return (

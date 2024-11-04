@@ -1,9 +1,9 @@
 import Title from "../../../components/Titile";
-import burgerImg from '../../../../public/assets/popular-food/burger.svg'
-import pizzaImg from '../../../../public/assets/popular-food/pizza.svg'
-import frenchFriesImg from '../../../../public/assets/popular-food/french-fries.svg'
-import chickenImg from '../../../../public/assets/popular-food/chicken.svg'
-import bgImg from '../../../../public/assets/popular-food/bg-img.svg'
+import burgerImg from '../../../assets/popular-food/burger.svg'
+import pizzaImg from '../../../assets/popular-food/pizza.svg'
+import frenchFriesImg from '../../../assets/popular-food/french-fries.svg'
+import chickenImg from '../../../assets/popular-food/chicken.svg'
+import bgImg from '../../../assets/popular-food/bg-img.svg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

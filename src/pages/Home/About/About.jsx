@@ -1,9 +1,9 @@
-import aboutImg from '../../../../public/assets/about/about.svg'
+import aboutImg from '../../../assets/about/about.svg'
 import { FiPhoneCall } from "react-icons/fi";
-import fastDeliveryImg from '../../../../public/assets/about/delivery.svg'
-import absoluteImg from '../../../../public/assets/about/absolute.svg'
-import pickupDeliveryImg from '../../../../public/assets/about/pickup.svg'
-import bgImg from '../../../../public/assets/about/bg_img.svg'
+import fastDeliveryImg from '../../../assets/about/delivery.svg'
+import absoluteImg from '../../../assets/about/absolute.svg'
+import pickupDeliveryImg from '../../../assets/about/pickup.svg'
+import bgImg from '../../../assets/about/bg_img.svg'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 // import 'react-tabs/style/react-tabs.css';
 
