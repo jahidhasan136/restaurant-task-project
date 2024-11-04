@@ -221,7 +221,9 @@
   flex-direction: column-reverse !important;
 }
 
-
+/* .break br {
+  display: none;
+} */
 
 .swiper-button-prev,
 .swiper-button-next {
