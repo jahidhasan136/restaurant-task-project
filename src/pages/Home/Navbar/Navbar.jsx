@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '/public/assets/logo.svg'
+import logo from '../../../../public/assets/logo.svg'
 import { FaBars, FaTimesCircle } from "react-icons/fa";
 import { useState } from "react";
 

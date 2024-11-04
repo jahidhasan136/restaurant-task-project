@@ -1,8 +1,8 @@
-import bgImg from '/public/assets/footer/bg_footer.jpg'
-import timeIcon from '/public/assets/footer/time.svg'
-import callIcon from '/public/assets/footer/call.svg'
-import emailIcon from '/public/assets/footer/email.svg'
-import addressIcon from '/public/assets/footer/address.svg'
+import bgImg from '../../../../public/assets/footer/bg_footer.jpg'
+import timeIcon from '../../../../public/assets/footer/time.svg'
+import callIcon from '../../../../public/assets/footer/call.svg'
+import emailIcon from '../../../../public/assets/footer/email.svg'
+import addressIcon from '../../../../public/assets/footer/address.svg'
 import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 

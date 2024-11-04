@@ -1,6 +1,6 @@
-import heroImg from '/public/assets/hero/hero_img.svg'
-import flower from '/public/assets/hero/flower.svg'
-import textImg from '/public/assets/hero/text_banner.png'
+import heroImg from '../../../../public/assets/hero/hero_img.svg'
+import flower from '../../../../public/assets/hero/flower.svg'
+import textImg from '../../../../public/assets/hero/text_banner.png'
 
 const Hero = () => {
     return (
