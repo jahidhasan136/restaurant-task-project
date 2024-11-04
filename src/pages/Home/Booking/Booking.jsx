@@ -10,12 +10,12 @@ const Booking = () => {
                 <h2 className='bebas-neue-bold lg:text-[62px] md:text-[40px] lg:mb-4 md:mb-1'>Book Your Table</h2>
                 <p className='mb-10'>Enim tempor  eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
                 <form action="" className='grid gap-6'>
-                    <div className='lg:flex md:grid gap-10 md:gap-4'>
+                    <div className='lg:flex sm:grid gap-10 sm:gap-4'>
                         <input className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] w-[302px] h-[46px]' placeholder='Your Name*' type="text" />
                         <input className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] w-[302px] h-[46px]'
                             placeholder='Your Email*' type="email" />
                     </div>
-                    <div className='lg:flex md:grid gap-10 md:gap-4'>
+                    <div className='lg:flex sm:grid gap-10 sm:gap-4'>
                         <input className='px-4 py-3 text-sm bg-transparent border border-[#E5E7EB] w-[302px] h-[46px]'
                             placeholder='Reservation
                         Date' type="date" />
